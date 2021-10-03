@@ -16,13 +16,13 @@ elif N==0 or N==-1  and d==13:
     print('юг')
 elif N==0 or N==-1  and d==14:
     print('восток')
-elif N==-1 and d==11
+elif N==-1 and d==11:
     print ('юг')
-elif N == -1 and d == 12
+elif N == -1 and d == 12:
     print('восток')
-elif N==-1 and d==13
+elif N==-1 and d==13:
     print ('север')
-elif N==-1 and d==14
+elif N==-1 and d==14:
     print ('запад')
 
 
