@@ -8,11 +8,11 @@ y1=int(input("Введите год первой даты: "))
 y2=int(input("Введите год второй даты: "))
 print('первая дата ',d1,'.',m1,'.',y1)
 print('вторая дата ',d2,'.',m2,'.',y2)
-if d1>d2 and m1>m2 and y1>y2:
+if y1<y2:
     print('yes')
-elif d1>d2 and m1>m2 and y1==y2:
+elif  m1<m2 and y1==y2:
     print('yes')
-elif d1 > d2 and m1==m2 and y1==y2:
+elif d1 < d2 and m1==m2 and y1==y2:
         print('yes')
 else:
     print('no')
