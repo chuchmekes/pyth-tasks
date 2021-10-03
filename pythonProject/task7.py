@@ -4,5 +4,9 @@
 day=int(input("Введите  количество дней: "))
 per=int(input("Укажите процент скидки: "))
 sum=int(input("Введите  сумму: "))
-pri=(sum+day*3)*(per/100)+sum+day*3
-print('ваша прибыль составляет ',pri)
+sumPrice= 0
+for day in range(day):
+    sumPrice= sumPrice+ (sum-(sum*(per/100)))
+    sum+=3
+
+print('ваша прибыль составляет ',sumPrice)
