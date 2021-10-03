@@ -8,22 +8,15 @@
 d=int(input("Введите исходное направление робота: "))
 N=int(input("Введите команду: "))
 n1=d+N
-if N==0 or N==1 and d==11:
+if n1==11 or n1==15:
     print('север')
-elif N==0 or N==1  and d==12:
+elif n1==12:
     print('запад')
-elif N==0 or N==-1  and d==13:
+elif n1==13:
     print('юг')
-elif N==0 or N==-1  and d==14:
+elif n1==14 or n1==10:
     print('восток')
-elif N==-1 and d==11:
-    print ('юг')
-elif N == -1 and d == 12:
-    print('восток')
-elif N==-1 and d==13:
-    print ('север')
-elif N==-1 and d==14:
-    print ('запад')
+
 
 
 
